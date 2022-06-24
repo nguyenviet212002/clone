@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wapaper{
+    height: 60px;
+    background: aliceblue;
+}
+.wapaper h1{
+    color: #222222;
+    font-size: 30px;
+    font-family: 800;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+#header {
+    height: 46px;
+    background:#222222;
+    z-index: 1;
+}
+#nav{
+    display: inline-block;
+    width: 100%;
+}
+#nav > li {
+    display: inline-block;
+}
+#nav >li> a{
+    color: aliceblue;
+    text-transform: uppercase;
+    margin-left: 60px;
+}
+#nav li a{
+    text-decoration: none;
+    line-height:46px ;
+    padding: 0 24px ;
+    display: block;
+}
+#nav li:hover .subnav{
+    display: block;
+    border-radius: 5px;
+}
+#nav > li:hover > a{
+   background: red;
+   border-radius: 5px;
+}
+
+#nav .subnav li:hover{
+   background: red;
+}
+#nav li {
+    position: relative;
+}
+#nav .subnav{
+    border-radius: 5px;
+    display: none;
+    position:absolute;
+    background-color: aliceblue;
+    width: 131px;
+    list-style: none;
+    margin-left: 60px;
+
+}
+#nav .subnav a{
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.icon {
+    padding-left: 40px;
+    color:aliceblue;
+}
+.icon input {
+   width: 200px;
+}
+.icon a i {
+    color:aliceblue;
+    padding-left: 8px; 
+}
+.collection{
+    height: 900px;
+    margin-top:65px;
+}
+.collection h2{
+    color: #222222;
+    text-align: center;
+}
+.collection h3{
+    text-align: center;
+    color: #222222;
+    margin-top: 15px;
+}
+.sanpham{
+     display: inline-block;
+     margin-left: 115px;
+     margin-top: 30px;
+     background: antiquewhite;
+}
+.sanpham img{
+    width: 230px;
+    height: 320px;
+}
+.sanpham a{
+    text-decoration: none;
+}
+.sanpham h4{
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
+.sanpham p{
+    text-align: center;
+    color: red;
+}
+.sanpham a h4:hover{
+    color: red;
+    text-decoration: underline;
+}
+.sanpham img:hover{
+    -webkit-transform: scale(1.1); 
+    -moz-animation:scale(1.1) ;
+    -o-transform: scale(1.1);
+    box-shadow: 0px 0px 30px gray; 
+    -webkit-box-shadow: 0px 0px 30px gray;
+    -moz-box-shadow: 0px 0px 30px gray;
+    opacity: 1; 
+}
+.map{
+    height: 550px;
+    width: 100%;
+    background: #fff;
+    margin-top: 60px;
+}
+.fanpage {
+    display:inline-flex ;
+}
+.fanpage >h4{
+   font-size: 16px;
+   margin-top:30px;
+   height: 50px;
+}
+.fanpage img{
+    height: 300px;
+    width: 440px; 
+    margin-left: 70px;
+}
+ iframe{
+    height: 300px;
+    width: 430px; 
+    margin-left: 70px;
+}
+.hotline{
+    display: inline-block ;
+    margin-top: 80px;
+}
+
+.fanpage h4{
+    margin-left: 80px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.hotline a{
+    margin-left: 75px;
+    font-size: 20px;
+    font-weight: 550;
+}   
+ .hotline p{
+    padding-left: 50px;
+    font-size: 13px;
+}
+hr {
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px
+    solid #eee;
+}
+.net {
+    padding-left: 70px;
+    width: 900px;
+}
+.map a i{
+     padding-left: 9px;
+     color: #222222;
+    } 
+.net .address{
+    color: #222222;
+    text-decoration: #222222 underline;
+    padding-left: 500px;
+}
+.footer{
+    font-size: 14px;
+    height: 80px;
+    background: #eee;
+    display: flex;
+    margin-top: 60px;
+}
+.footer .sp{
+    margin-left: 180px;
+    margin-top: 30px;
+}
+.footer .introduce{
+   margin-left: 350px;
+   margin-top: 30px;
+}
+.footer .buying{
+    margin-left: 350px;
+    margin-top: 30px;
+ }
+.map p {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.footer .fa-angle-down{
+    margin-left: 6px;
+}
